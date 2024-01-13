@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.grid-cols-7 span:nth-child(7n + 6), 
+.grid-cols-7 span:nth-child(7n + 7){
+    color: red;
+}
